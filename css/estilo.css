@@ -5,7 +5,10 @@
     border-style: solid;
 }
 
-
+.pagobox{
+  height: 50%;
+  width: 50%;
+}
 /* Container holding the image and the text */
 .container {
   position: relative;
