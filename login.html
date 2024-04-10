@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viajes Paraiso</title>
+    <title>Sushi delivery</title>
     <!-- Latest compiled and minified CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Latest compiled JavaScript -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/estilologin.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
         <div class="container-fluid">
             <img src="img/logo.png" alt="Logo" style="width:40px;" class="rounded-pill">
@@ -50,52 +51,37 @@
             </div>
         </div>
     </nav>
+    <div class="container"><!--main container-->
+        <div class="mt-5">
 
-    <div class="container">
-        <div class="header">
-            <img src="img/headerimg.jpg" alt="Notebook" style="width:100%;">
-            <div class="content">
-                <h1 class="display-3">Paradise Travel</h1>
-                <p>Viaje al paraiso con nosotros...</p>
+            <form style="max-width:500px;margin:auto">
+                <h2>Login</h2>
+                <div class="input-container">
+                    <i class="fa fa-user icon"></i>
+                    <input class="input-field " type="text" placeholder="Username" name="usrnm">
+                </div>
+
+                <div class="input-container">
+                    <i class="fa fa-key icon "></i>
+                    <input class="input-field " type="password" placeholder="Password" name="psw">
+                </div>
+
+                <a type="submit" class="btn" role="button" href="index.html">Iniciar Sesión</a>
+            </form>
+
+            <div class="text-center mt-3">
+                <a href="forgot.html" class="nodecolink">¿Olvidaste tu contraseña?</a>
+                <br>
+                <a href="crearcuenta.html" class="nodecolink">Crear una cuenta</a>
+              
             </div>
         </div>
-    </div>
-    <div class="container">
 
-        <div class="row">
-            <div class="col-sm-4 mt-3">
-                <div class="card p-2 shadow " >
-                    <img class="card-img-top" src="img/chrnobyl.jpg" alt="Chernobyl">
-                    <div class="card-body">
-                        <h4 class="card-title">Tour en Chernobyl</h4>
-                        <p class="card-text">Recorre la ciudad y recarga tu cuerpo de energía<br><br></p>
-                        <a href="detalles.html" class="btn btn-primary">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 mt-3">
-                <div class="card p-2 shadow " >
-                    <img class="card-img-top" src="img/komodo.jpg" alt="Komodo">
-                    <div class="card-body">
-                        <h4 class="card-title">Granja Educativa Komodo</h4>
-                        <p class="card-text">Interactúa con estos tiernos animales<br><br></p>
-                        <a href="detalles.html" class="btn btn-primary">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 mt-3">
-                <div class="card p-2 shadow ">
-                    <img class="card-img-top" src="img/ukrania.jpg" alt="Ukrania">
-                    <div class="card-body">
-                        <h4 class="card-title">7 días en Ukrania</h4>
-                        <p class="card-text">Disfruta de actividades en las calles y sorprendete con los fuegos
-                            artificiales</p>
-                        <a href="detalles.html" class="btn btn-primary">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
+
+    </div><!--main container ends-->
+
 
 
 </body>
