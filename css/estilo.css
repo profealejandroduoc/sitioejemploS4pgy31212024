@@ -5,6 +5,60 @@
     border-style: solid;
 }
 
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  
+}
+.drophovercustom
+{
+    color:white
+}
+.drophovercustom:hover{
+    background: #65a2ff;
+    color: white;
+    
+}
+
+.sesiontext:hover{
+    color:white;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    transition: 0.3s;
+    
+}
+
+.nodecolink
+{
+    text-decoration: none;
+    font-weight:600;
+}
+
 .header {
     position: relative;
     max-width: auto; /* Maximum width */
@@ -17,7 +71,7 @@
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 99.4%; /* Full width */
+    width: 100%; /* Full width */
     padding: 20px; /* Some padding */
   }
 
@@ -29,7 +83,7 @@
         background: rgb(0, 0, 0); /* Fallback color */
         background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
         /*color: #f1f1f1; /* Grey text */
-        width: 99.4%; /* Full width */
+        width: 100%; /* Full width */
         padding: 20px; /* Some padding */
         
         
